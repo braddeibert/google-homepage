@@ -1,5 +1,6 @@
 # google-homepage
-(Done for the Odin Project curriculum)
+From The Odin Project's [curriculum]
+(http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
 This is my first project using html & css to create a webpage. 
 It is a replica of Google's home page without the functionalities.
