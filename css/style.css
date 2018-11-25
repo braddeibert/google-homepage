@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: small;
+    text-align: -webkit-center;
+    background-color: #fff;
+    color: #222;
+    top: 0;
+}
+
+header {
+    min-width: 980px;
+    height: 20px;
+}
+
+nav {
+    color: rgb(128, 128, 128);
+    height: 20px;
+    justify-content: center;
+}
+
+footer {
+    border-top: 1px solid rgba(128, 128, 128, .2);
+    background-color: rgba(128, 128, 128, .1);
+    height: 45px;
+    min-width: 980px;
+    position: relative;
+    top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 15px 5px;
+    display: inline-block;
+    height: 20px;
+}
+
+a {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#card-menu {
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#card-menu:hover {
+    cursor: pointer;
+}
+
+#sign-in {
+    color: white;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#search-box {
+    display: inline-block;
+    height: 44px;
+    width: 584px;
+    min-width: 484px;
+    border: 1px solid rgba(128, 128, 128, .25);
+    justify-content: center;
+}
+
+input.search {
+    position: relative;
+    top: -6px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: -37px;
+    padding: 0px;
+    width: 520px;
+    min-width: 420px;
+    height: 34px;
+    border: none;
+    text-align: start;
+}
+
+#mic {
+    margin: 10px 5px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#mic:hover {
+    cursor: pointer;
+}
+
+input.search:enabled {
+    outline: none;
+}
+
+.buttons {
+    margin: 25px 5px 10px 5px;
+    border: none;
+    padding: 10px 15px;
+    background-color: rgba(128, 128, 128, .1);
+    font-weight: bold;
+}
+
+.buttons:hover {
+    outline: 1px outset gray;
+}
+
+.r-nav {
+    float: right;
+    padding-right: 10px;
+}
+
+.l-nav {
+    float: left;
+    padding-left: 10px;
+}
