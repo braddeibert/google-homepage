@@ -89,6 +89,7 @@ a:hover {
     min-width: 484px;
     border: 1px solid rgba(128, 128, 128, .25);
     justify-content: center;
+    border-radius: 25px;
 }
 
 input.search {
